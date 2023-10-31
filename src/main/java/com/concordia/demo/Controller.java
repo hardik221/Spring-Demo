@@ -15,4 +15,9 @@ public class Controller {
 	public String newWorld() {
 		return "new World";
 	}
+
+	@RequestMapping("/old")
+	public String oldWorld() {
+		return "old World";
+	}
 }
